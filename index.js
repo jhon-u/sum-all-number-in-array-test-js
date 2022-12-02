@@ -11,4 +11,9 @@ const sumItems = function(array) {
   return result;
 };
 
+// TEST CODE
+console.log(sumItems([1, 2, 3, 4, 5]));
+console.log(sumItems([[1, 2, [[3], 4]], 5, []]));
+console.log(sumItems([[[[[[[[[[[[[1]]]]]]]]]]]]]));
+
 module.exports = sumItems;
